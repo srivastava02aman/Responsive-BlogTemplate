@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  margin-top: 24px;
+  font-family: var(--font2);
+  /* height: 74px;
+  background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+.nav-left span {
+  font-size: 25px;
+}
+
+.nav-left ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 55px;
+  font-size: 22px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font1);
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+}
+.content::after {
+  content: "";
+  background-image: url(https://images.pexels.com/photos/3473085/pexels-photo-3473085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.6;
+}
+.content-left {
+  font-family: var(--font2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  z-index: 1;
+}
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img {
+  height: 180px;
+  border: 2px solid black;
+  border-radius: 150px;
+}
+
+.home-articles {
+  padding-top: 12px;
+  margin-top: 23px;
+  position: relative;
+}
+
+.year-box {
+  position: absolute;
+  right: -220px;
+  top: 89px;
+  width: 244px;
+  height: 160px;
+}
+.year-box div {
+  margin: 12px 0px;
+}
+
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+.home-article img {
+  width: 300px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.footer a {
+  color: white;
+}

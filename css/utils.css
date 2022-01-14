@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto+Condensed&display=swap");
+
+:root {
+  --main-bg-color: brown;
+  --font1: "Island Moments", cursive;
+  --font2: "Roboto Condensed", sans-serif;
+}
+.font1 {
+  font-family: var(--font2);
+}
+.font2 {
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.my-2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.m-auto {
+  margin: auto;
+}
+.btn:hover {
+  background-color: var(--main-bg-color);
+  color: white;
+}
+.btn {
+  padding: 0px 8px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 5px;
+  font-family: var(--font2);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.form-input {
+  padding: 0px 11px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 5px;
+  font-family: var(--font2);
+}
+.form-box input,
+textarea {
+  width: 52vh;
+  padding: 0 6px;
+  margin: 7px 0;
+  font-size: 18px;
+  font-family: var(--font2);
+  border-radius: 5px;
+}
